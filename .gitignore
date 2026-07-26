@@ -1,0 +1,19 @@
+# Secrets / credentials — never commit these
+*.env
+.env.*
+*.key
+*.pem
+*.p12
+*credentials*
+*secret*
+
+# Config exports that tend to contain real addressing/hostnames
+*.running-config
+*backup-config*
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
